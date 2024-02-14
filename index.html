@@ -1,23 +1,90 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Space Exploration</title>
-    </head>
-    <body>
-      <img src="img/header-space.jpg" title="Eearth view from space" alt="Earth view from space">
-      <h1>Space Exploration</h1>
 
-      <h2>Milky Way over French Alp Hoodoos</h2>
-      <p>Real castles aren't this old. And the background galaxy is even older. Looking a bit like an alien castle, the pictured rock spires are called hoodoos and are likely millions of years old. Rare, but found around the world, hoodoos form when dense rocks slow the erosion of softer rock underneath. The pictured hoodoos survive in the French Alps and are named Demoiselles Coiffées -- which translates to English as "Ladies with Hairdos". The background galaxy is part of the central disk of our own Milky Way galaxy and contains stars that are typically billions of years old. The photogenic Cygnus sky region -- rich in dusty dark clouds and red glowing nebulas -- appears just above and behind the hoodoos. The featured image was taken in two stages: the foreground was captured during the evening blue hour, while the background was acquired from the same location later that night.</p>
-      <img src="img/image-1-400-h.jpeg" title="Milky Way over French Alp Hoodoos" alt="Milky Way over French Alp Hoodoos">
-      
-      <h2>RCW 86: Historical Supernova Remnant</h2>
-      <p>In 185 AD, Chinese astronomers recorded the appearance of a new star in the Nanmen asterism. That part of the sky is identified with Alpha and Beta Centauri on modern star charts. The new star was visible for months and is thought to be the earliest recorded supernova. This deep image shows emission nebula RCW 86, understood to be the remnant of that stellar explosion. The narrowband data trace gas ionized by the still expanding shock wave. Space-based images indicate an abundance of the element iron and lack of a neutron star or pulsar in the remnant, suggesting that the original supernova was Type Ia. Unlike the core collapse supernova explosion of a massive star, a Type Ia supernova is a thermonuclear detonation on a a white dwarf star that accretes material from a companion in a binary star system. Near the plane of our Milky Way galaxy and larger than a full moon on the sky this supernova remnant is too faint to be seen by eye though. RCW 86 is some 8,000 light-years distant and around 100 light-years across.</p>
-      <img src="img/image-2-400-h.jpeg" title="RCW 86: Historical Supernova Remnant" alt="RCW 86: Historical Supernova Remnant">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="North Celestial Tree">
 
-      <h2>Latest News</h2>
-      <h3>The James Webb Space Telescope</h3>
-      <p>The James Webb Space Telescope is a space telescope launched by NASA on December 25, 2021. Its high-resolution and high-sensitivity instruments allow it to view objects too old, distant, or faint for the Hubble Space Telescope</p>
-      <img src="img/nasa-logo-200-h.png" title="NASA Logo" alt="NASA logo">
-    </body>
+    <title>North Celestial Tree</title>
+
+    <style>
+        #header-image {
+            /* TODO: Scale the image below to 2000x270 pixels */
+            background: url("./img/space-header-original.jpg") no-repeat center;
+            background-size: 100% 100%; 
+            height: 270px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto 20px auto;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 3rem;
+            line-height: 3rem;
+            letter-spacing: 0.5rem;            
+        }
+
+        .lead {
+            font-size: 1.5rem;
+        }
+
+        /* Multicolumn layout */
+        .activity-row {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .activity-col {
+            padding: 0;
+            margin: 0;
+        }
+
+        .gutter-x {
+            padding: 0 20px;
+        }
+
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Introductory content -->
+    <header>
+        <div id="header-image"></div>
+        <div class="container">                    
+            <h1>Space Exploration & Astronomy</h1>        
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="activity-row">
+            <div class="activity-col">
+                <!-- TODO: Scale the image below to 500x500 pixels -->
+                <img src="img/north-celestial-tree-original.jpeg" alt="View of the lake with kayak on the horizon" width="500" height="500">
+            </div>
+            <div class="activity-col gutter-x">
+                <h2>North Celestial Tree</h2>
+                <p class="lead">
+                    An ancient tree seems to reach out and touch Earth's North Celestial Pole in this well-planned night skyscape. Consecutive exposures for the timelapse composition were recorded with a camera fixed to a tripod in the Yiwu Desert Poplar Forests in northwest Xinjiang, China. 
+                </p>
+                <p>
+                    The graceful star trail arcs reflect Earth's daily rotation around its axis. By extension, the axis of rotation leads to the center of the concentric arcs in the night sky.
+                </p>
+                <p>
+                    Known as the North Star, bright star Polaris is a friend to northern hemisphere night sky photographers and celestial navigators alike. That's because Polaris lies very close to the North Celestial Pole on the sky. Of course it can be found at the tip of an outstretched barren branch in a postcard from a rotating planet.
+                </p>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <!-- TODO: Download Nasa's logo in SVG format. Include the image and set its size to 100 pixels wide and 85 pixels tall.-->
+        <!-- Your img tag here -->        
+    </footer>
+</body>
+
 </html>

@@ -1,5 +1,4 @@
 # Space Exploration & Astronomy
 
-This my website.
+Working with images
 
-[Link to the website](https://josecarlosgt.github.io/working-with-images/)
