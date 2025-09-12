@@ -4,5 +4,6 @@ In this practice, you will learn how to manipulate images and incorporate them o
 
 ## Expected Output
 After completing your lab practice, your web page should like the image below.
+
 ![Expected output](./expected-output.jpg)
 
